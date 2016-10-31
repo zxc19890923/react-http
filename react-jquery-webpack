@@ -1,0 +1,4 @@
+1. 先使用 npm install jquery --save-dev 安装jquery，这样就会配置到package.json中
+2. 让react jsx识别$，在main.js中引入jquery
+import $ from 'jquery'
+3. 这样就可以使用jquery的ajax方法来获取服务器数据了
